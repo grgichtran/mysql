@@ -4,7 +4,7 @@ A small image with mysql, mysql-client cli and bash using Alpine 3.3.  Optimized
 ## get started
 ```bash
 # root/empty password
-docker run --name="mysql" -v /data/mysql:/app --restart="always" -d grgichtran/alpine-mysql
+docker run --name="mysql" -v /data/mysql:/app --restart="always" -d grgichtran/mysql
 ```
 ## using mysql cli
 ```bash
