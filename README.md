@@ -1,4 +1,4 @@
-# alpine-mysql
+# mysql
 A small image with mysql, mysql-client cli and bash using Alpine 3.3.  Optimized for low memory (512MB) installations.
 
 ## get started
