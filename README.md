@@ -10,6 +10,7 @@ docker run --name="mysql" -v /data/mysql:/app --restart="always" -d grgichtran/m
 ```bash
 # get bash inside container
 docker exec -it mysql bash
+
 # container bash
 $ mysql -u root -p
 ```
@@ -18,8 +19,10 @@ $ mysql -u root -p
 ```bash
 # get bash inside container
 docker exec -it mysql bash
+
 # container bash
 $ mysql -u root -p
+
 # execute this
 USE mysql;
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
@@ -28,12 +31,14 @@ FLUSH PRIVILEGES;
 quit;
 ```
 
-## configure my.conf
+## configure my.cnf
 ```bash
 # copy file out of container
 docker cp mysql:/etc/mysql/my.cnf .
+
 # edit
 vi  my.conf
+
 # copy file back into container
 docker cp my.cnf mysql:/etc/mysql/my.cnf
 ```
