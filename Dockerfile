@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-MAINTAINER Chris Grgich-Tran <chris@grgichtran.com>
+MAINTAINER Chris Grgich-Tran <pootie@grgichtran.com>
 
 EXPOSE 3306
 ENV TERM dumb
