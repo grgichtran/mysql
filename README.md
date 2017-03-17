@@ -1,5 +1,6 @@
 # mysql
 A small image with mysql, mysql-client cli and bash using Alpine 3.3.  Optimized for low memory (512MB) installations.
+
 [![](https://images.microbadger.com/badges/image/grgichtran/mysql.svg)](https://microbadger.com/images/grgichtran/mysql "Get your own image badge on microbadger.com")
 
 ## get started
